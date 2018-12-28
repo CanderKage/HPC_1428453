@@ -10,7 +10,7 @@
  * a gradient search for a minimum in mc-space.
  * 
  * To compile:
- *   cc -o lr_coursework lr_coursework.c -lm
+ *   cc -o lr_coursework lr_coursework38.c -lm
  * 
  * To run:
  *   ./lr_coursework
@@ -77,8 +77,8 @@ int main() {
       }
     }
 
-  printf("best m,c is %lf,%lf with error %lf in direction %d\n", 
-     dm[best_error_i], dc[best_error_i], best_error, best_error_i);
+    printf("%lf,%lf\n", 
+      dm[best_error_i], dc[best_error_i]);
     if(best_error < be) {
       be = best_error;
       bm = dm[best_error_i];
@@ -87,7 +87,7 @@ int main() {
       minimum_found = 1;
     }
   }
-  //printf("minimum m,c is %lf,%lf with error %lf\n", bm, bc, be);
+  printf("minimum m,c is %lf,%lf\n", bm, bc);
 
   return 0;
 }
