@@ -87,7 +87,7 @@ int main() {
       minimum_found = 1;
     }
   }
-  printf("x,y is %lf,%lf\n", bm, bc);
+  printf("minimum m,c is %lf,%lf\n", bm, bc);
 
   return 0;
 }
