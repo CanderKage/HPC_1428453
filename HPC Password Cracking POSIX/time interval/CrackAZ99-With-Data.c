@@ -105,6 +105,7 @@ void *crackpass(char *salt_and_encrypted){
         count++;
         if(strcmp(salt_and_encrypted, enc) == 0){
           printf("#%-8d%s %s\n", count, plain, enc);
+	break;
         } else {
           printf(" %-8d%s %s\n", count, plain, enc);
         }
@@ -112,6 +113,7 @@ void *crackpass(char *salt_and_encrypted){
     }
   }
   printf("%d solutions explored\n", count);
+	
 }
 
 int main(int argc, char *argv[]){
