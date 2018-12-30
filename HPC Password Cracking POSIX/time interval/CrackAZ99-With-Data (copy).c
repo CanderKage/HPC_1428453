@@ -45,8 +45,9 @@ void crack() {
   pthread_t thread1;
 
   void *crackpass();
-   for(i=0;i<n_passwords;i++) {
-   	 pthread_create(&thread1, NULL,crackpass, encrypted_passwords[i]);
+   for(i=0;i<n_passwords;i<i++) {
+  
+ 	 pthread_create(&thread1, NULL,crackpass, encrypted_passwords[i]);
   pthread_join(thread1, NULL);
 }
 }
@@ -117,8 +118,12 @@ void *crackpass(char *salt_and_encrypted){
 int main(int argc, char *argv[]){
   struct timespec start, finish;   
   long long int time_elapsed;
+
   clock_gettime(CLOCK_MONOTONIC, &start);
+  
+  
   crack();
+  
   clock_gettime(CLOCK_MONOTONIC, &finish);
   time_difference(&start, &finish, &time_elapsed);
   printf("Time elapsed was %lldns or %0.9lfs\n", time_elapsed,
