@@ -2,14 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <crypt.h>
-#include <ctype.h>
-#include <errno.h>
-#include <sys/stat.h>
-#include <string.h>
 #include <time.h>
 #include <pthread.h>
-#include <math.h>
-
 
 /***********************************************************************
 *******
@@ -18,17 +12,17 @@
 uppercase
   letters and a 2 digit integer. Your personalised data set is included
 in the
-  code. 
+  code.
 
   Compile with:
-    cc -o CrackAZ99-With-Data CrackAZ99-With-Data.c -lcrypt
+    cc -o CrackAZ99-With-Data CrackAZ99-With-Data.c -lcrypt -pthread -lrt
 
   If you want to analyse the results then use the redirection operator
 to send
   output to a file that you can view using an editor or the less
 utility:
 
-    ./CrackAZ99-With-Data > results.txt
+    ./CrackAZ99-With-Data pthread -lrt > time n.txt
 
   Dr Kevan Buckley, University of Wolverhampton, 2018
 ************************************************************************
@@ -46,6 +40,33 @@ char *encrypted_passwords[] = {
 "$6$KB$UwKD1iCsvhAryQWAH6o8C9B6dEtOUOhYCgBfwtvffD.Ycz83.8GZ/9dhfIyVodUtHRyUl8A8LRfCNSlx8Lb2O1"
 };
 
+void crack() {
+  int i;
+  pthread_t thread1;
+
+  void *crackpass();
+   for(i=0;i<n_passwords;i<i++) {
+  
+ 	 pthread_create(&thread1, NULL,crackpass, encrypted_passwords[i]);
+  pthread_join(thread1, NULL);
+}
+}
+
+int time_difference(struct timespec *start, 
+                    struct timespec *finish, 
+                    long long int *difference) {
+  long long int ds =  finish->tv_sec - start->tv_sec; 
+  long long int dn =  finish->tv_nsec - start->tv_nsec; 
+
+  if(dn < 0 ) {
+    ds--;
+    dn += 1000000000; 
+  } 
+  *difference = ds * 1000000000 + dn;
+  return !(*difference > 0);
+}
+
+
 /**
  Required by lack of standard function in C.   
 */
@@ -59,16 +80,16 @@ void substr(char *dest, char *src, int start, int length){
  This function can crack the kind of password explained above. All
 combinations
  that are tried are displayed and when the password is found, #, is put
-at the 
+at the
  start of the line. Note that one of the most time consuming operations
-that 
+that
  it performs is the output of intermediate results, so performance
-experiments 
+experiments
  for this kind of program should not include this. i.e. comment out the
 printfs.
 */
 
-void crack(char *salt_and_encrypted){
+void *crackpass(char *salt_and_encrypted){
   int x, y, z;     // Loop counters
   char salt[7];    // String used in hashing the password. Need space
   char plain[7];   // The combination of letters currently being checked
@@ -77,10 +98,10 @@ void crack(char *salt_and_encrypted){
 
   substr(salt, salt_and_encrypted, 0, 6);
 
-  for(x='A'; x<='Z'; x++){
+  for(x='A'; x<='M'; x++){
     for(y='A'; y<='Z'; y++){
       for(z=0; z<=99; z++){
-        sprintf(plain, "%c%c%02d", x, y, z); 
+        sprintf(plain, "%c%c%02d", x, y, z);
         enc = (char *) crypt(plain, salt);
         count++;
         if(strcmp(salt_and_encrypted, enc) == 0){
@@ -93,39 +114,22 @@ void crack(char *salt_and_encrypted){
   }
   printf("%d solutions explored\n", count);
 }
-//Time difference function
-int time_difference(struct timespec *start, struct timespec *finish, 
-                    long long int *difference) {
-  long long int ds =  finish->tv_sec - start->tv_sec; 
-  long long int dn =  finish->tv_nsec - start->tv_nsec; 
 
-  if(dn < 0 ) {
-    ds--;
-    dn += 1000000000; 
-  } 
-  *difference = ds * 1000000000 + dn;
-  return !(*difference > 0);
-}
+int main(int argc, char *argv[]){
+  struct timespec start, finish;   
+  long long int time_elapsed;
 
-int main(int argc, char *argv[],long long int *difference){
-  
-struct timespec start, finish;   
-long long int time_elapsed;
-int i;
-  
-  for(i=0;i<n_passwords;i<i++) {
-    crack(encrypted_passwords[i]);
-break;
-  }
   clock_gettime(CLOCK_MONOTONIC, &start);
- 
- clock_gettime(CLOCK_MONOTONIC, &finish);
+  
+  
+  crack();
+  
+  clock_gettime(CLOCK_MONOTONIC, &finish);
   time_difference(&start, &finish, &time_elapsed);
-  printf("Time elapsed was %lldns or %0.9lfs\n", time_elapsed, 
-         (time_elapsed/1.0e9)); 
-return 0;
-
-
+  printf("Time elapsed was %lldns or %0.9lfs\n", time_elapsed,
+                                         (time_elapsed/1.0e9));
+  
+  return 0;
 }
 
 
