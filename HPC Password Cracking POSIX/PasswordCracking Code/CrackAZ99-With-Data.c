@@ -78,7 +78,7 @@ void crack(char *salt_and_encrypted){
         if(strcmp(salt_and_encrypted, enc) == 0){
           printf("#%-8d%s %s\n", count, plain, enc);
         } else {
-          printf(" %-8d%s %s\n", count, plain, enc);
+          printf("%-8d%s %s\n", count, plain, enc);
         }
       }
     }
