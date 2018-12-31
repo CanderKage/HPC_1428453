@@ -1,0 +1,306 @@
+------------------------------------------------------------------------
+r24 | pasang.tenzing.sherpa | 2018-12-31 13:58:59 +0545 (Mon, 31 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c/time.txt
+
+image processing time calculated
+------------------------------------------------------------------------
+r23 | pasang.tenzing.sherpa | 2018-12-31 13:56:16 +0545 (Mon, 31 Dec 2018) | 3 lines
+Changed paths:
+   D /trunk/HPC Image Processing POSIX/Portfolio Task b
+   D /trunk/HPC Image Processing POSIX/Portfolio Task b/038.png
+   D /trunk/HPC Image Processing POSIX/Portfolio Task b/ip_coursework_038 (copy).c
+   D /trunk/HPC Image Processing POSIX/Portfolio Task b/ip_coursework_038.c
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c/038.png
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c/image processing a time.png
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c/ip_coursework
+   A /trunk/HPC Image Processing POSIX/Portfolio Task c/ip_coursework038.c
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/038
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/038/038.png
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/038/ip_coursework
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/038/ip_coursework_038.c
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/image processing image.png
+   A /trunk/HPC Image Processing POSIX/portfolio task b
+   A /trunk/HPC Image Processing POSIX/portfolio task b/ip_coursework
+   A /trunk/HPC Image Processing POSIX/portfolio task b/ip_coursework038.c
+
+Image processing
+
+
+------------------------------------------------------------------------
+r22 | pasang.tenzing.sherpa | 2018-12-31 09:58:59 +0545 (Mon, 31 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Image Processing POSIX/pox
+   A /trunk/HPC Image Processing POSIX/pox/038.png
+   A /trunk/HPC Image Processing POSIX/pox/ip_coursework_38.c
+   D /trunk/HPC Password Cracking POSIX/CrackAZ99
+   D /trunk/HPC Password Cracking POSIX/CrackAZ99-With-Data
+   D /trunk/HPC Password Cracking POSIX/CrackAZ99-With-Data.c
+   D /trunk/HPC Password Cracking POSIX/Crack_Multithread.c
+   D /trunk/HPC Password Cracking POSIX/output.txt
+   D /trunk/HPC Password Cracking POSIX/time interval/time1.txt
+
+Password crackin
+------------------------------------------------------------------------
+r21 | pasang.tenzing.sherpa | 2018-12-30 15:09:40 +0545 (Sun, 30 Dec 2018) | 3 lines
+Changed paths:
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data.c
+   M /trunk/HPC Password Cracking POSIX/time interval/time1.txt
+
+TIme 1 records posix
+
+
+------------------------------------------------------------------------
+r20 | pasang.tenzing.sherpa | 2018-12-30 14:23:50 +0545 (Sun, 30 Dec 2018) | 3 lines
+Changed paths:
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data
+   A /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data (copy).c
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data.c
+   M /trunk/HPC Password Cracking POSIX/time interval/time1.txt
+
+single thread password cracking
+
+
+------------------------------------------------------------------------
+r19 | pasang.tenzing.sherpa | 2018-12-30 13:51:02 +0545 (Sun, 30 Dec 2018) | 1 line
+Changed paths:
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data
+   M /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data.c
+   M /trunk/HPC Password Cracking POSIX/time interval/time1.txt
+
+Password Cracking  single thread
+------------------------------------------------------------------------
+r18 | pasang.tenzing.sherpa | 2018-12-30 13:11:19 +0545 (Sun, 30 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/time interval/time1.txt
+
+TIme interval 1
+------------------------------------------------------------------------
+r17 | pasang.tenzing.sherpa | 2018-12-30 13:08:02 +0545 (Sun, 30 Dec 2018) | 3 lines
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/CrackAZ99
+   A /trunk/HPC Password Cracking POSIX/CrackAZ99-With-Data
+   A /trunk/HPC Password Cracking POSIX/CrackAZ99-With-Data.c
+   A /trunk/HPC Password Cracking POSIX/Crack_Multithread.c
+   M /trunk/HPC Password Cracking POSIX/PasswordCracking Code/CrackAZ99-With-Data
+   M /trunk/HPC Password Cracking POSIX/PasswordCracking Code/CrackAZ99-With-Data.c
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking Code/output.txt
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed meantime 4.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed meantime3.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 5.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 6.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 7.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 8.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 9.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime 10.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime-1.png
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime-2.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme Elapsed meantime 4.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme Elapsed meantime3.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme elapsed meantime 5.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme elapsed meantime 6.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme elapsed meantime 7.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme elapsed meantime 8.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/TIme elapsed meantime 9.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/Time elapsed meantime 10.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/Time elapsed meantime-1.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time Screenshots/Time elapsed meantime-2.png
+   A /trunk/HPC Password Cracking POSIX/output.txt
+   A /trunk/HPC Password Cracking POSIX/time interval
+   A /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data
+   A /trunk/HPC Password Cracking POSIX/time interval/CrackAZ99-With-Data.c
+
+Posix Password Cracking
+
+
+------------------------------------------------------------------------
+r16 | pasang.tenzing.sherpa | 2018-12-28 20:53:39 +0545 (Fri, 28 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints/Plotassignment-checkpoint.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints/Plotting-checkpoint.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints/Untitled1-checkpoint.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints/plot-checkpoint.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/Plotassignment.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/Plotting.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/Untitled.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/Untitled1.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/dataset.csv
+   M /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework38
+   M /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework38.c
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/lr_courseworkedited.c
+   M /trunk/HPC Linear Regression POSIX/linear regression sample/plot.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/test
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/test/libreoffice
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/test/line-plot-03
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/test/line-plot-03 (another copy).c
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/test/line-plot-03.c
+
+LInear regression
+------------------------------------------------------------------------
+r15 | pasang.tenzing.sherpa | 2018-12-28 18:57:16 +0545 (Fri, 28 Dec 2018) | 1 line
+Changed paths:
+   M /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework38.c
+
+Linear Regression Sample
+------------------------------------------------------------------------
+r14 | pasang.tenzing.sherpa | 2018-12-28 17:40:48 +0545 (Fri, 28 Dec 2018) | 1 line
+Changed paths:
+   D /trunk/HPC Linear Regression POSIX/linear regression sample/Untitled.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/loaddataset.csv
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/plot.ipynb
+
+Dataset load
+------------------------------------------------------------------------
+r13 | pasang.tenzing.sherpa | 2018-12-28 17:37:52 +0545 (Fri, 28 Dec 2018) | 2 lines
+Changed paths:
+   A /trunk/HPC Image Processing POSIX/Portfolio Task b
+   A /trunk/HPC Image Processing POSIX/Portfolio Task b/038.png
+   A /trunk/HPC Image Processing POSIX/Portfolio Task b/ip_coursework_038 (copy).c
+   A /trunk/HPC Image Processing POSIX/Portfolio Task b/ip_coursework_038.c
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/image x72.png
+   A /trunk/HPC Image Processing POSIX/Portfolio task a
+   A /trunk/HPC Image Processing POSIX/Portfolio task a/image x72.png
+   A /trunk/HPC Image Processing POSIX/time
+   A /trunk/HPC Image Processing POSIX/time/factorise_3_4
+   A /trunk/HPC Image Processing POSIX/time/factorise_3_4.c
+   A /trunk/HPC Linear Regression POSIX
+   A /trunk/HPC Linear Regression POSIX/linear regression sample
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/Untitled.ipynb
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework38  original.c
+   A /trunk/HPC Linear Regression POSIX/linear regression sample/lr_coursework38.c
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking Code/CrackAZ99-With-Data (copy).c
+
+HPC Compile
+
+------------------------------------------------------------------------
+r12 | pasang.tenzing.sherpa | 2018-12-27 15:24:40 +0545 (Thu, 27 Dec 2018) | 3 lines
+Changed paths:
+   A /trunk/HPC Image Processing POSIX/JOURNAL
+   A /trunk/HPC Image Processing POSIX/JOURNAL/IMage Processing.png
+   A /trunk/HPC Image Processing POSIX/JOURNAL/IMage processing.docx
+
+Image processing Journal resources
+
+
+------------------------------------------------------------------------
+r11 | pasang.tenzing.sherpa | 2018-12-26 22:51:58 +0545 (Wed, 26 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Image Processing POSIX/Image Sample
+   A /trunk/HPC Image Processing POSIX/Image Sample/038
+   A /trunk/HPC Image Processing POSIX/Image Sample/038/038.png
+   A /trunk/HPC Image Processing POSIX/Image Sample/038/ip_coursework
+   A /trunk/HPC Image Processing POSIX/Image Sample/038/ip_coursework_038.c
+   A /trunk/HPC Image Processing POSIX/Image Sample/038.tgz
+   A /trunk/HPC Image Processing POSIX/Image Sample/image processing image.png
+   A /trunk/HPC Image Processing POSIX/Image Sample/image x72.png
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/038.png
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/ip_coursework
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/ip_coursework_038.c
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038.tgz
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/image processing image.png
+   D /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/image x72.png
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/image x72.png
+
+Image Processing POSIX
+------------------------------------------------------------------------
+r10 | pasang.tenzing.sherpa | 2018-12-26 21:23:06 +0545 (Wed, 26 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Image Processing POSIX
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/038.png
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/ip_coursework
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038/ip_coursework_038.c
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/038.tgz
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/image processing image.png
+   A /trunk/HPC Image Processing POSIX/Portfolio task 1/Image Sample/image x72.png
+
+(HPC )Image Processing POSIX Thread
+------------------------------------------------------------------------
+r9 | pasang.tenzing.sherpa | 2018-12-26 19:44:32 +0545 (Wed, 26 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 9.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime 10.png
+
+Meantime 10
+------------------------------------------------------------------------
+r8 | pasang.tenzing.sherpa | 2018-12-26 19:28:13 +0545 (Wed, 26 Dec 2018) | 3 lines
+Changed paths:
+   D /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed Meantime3.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed meantime3.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 6.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 7.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 8.png
+
+Meantime 8
+
+
+------------------------------------------------------------------------
+r7 | pasang.tenzing.sherpa | 2018-12-26 19:21:10 +0545 (Wed, 26 Dec 2018) | 3 lines
+
+Merge remote-tracking branch 'CanderKage/master'
+
+
+------------------------------------------------------------------------
+r6 | pasang.tenzing.sherpa | 2018-12-26 18:44:19 +0545 (Wed, 26 Dec 2018) | 3 lines
+
+time estimation meantime 5
+
+
+------------------------------------------------------------------------
+r5 | pasang.tenzing.sherpa | 2018-12-26 19:14:45 +0545 (Wed, 26 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme elapsed meantime 5.png
+   M /trunk/README.md
+
+
+------------------------------------------------------------------------
+r4 | pasang.tenzing.sherpa | 2018-12-26 18:34:45 +0545 (Wed, 26 Dec 2018) | 1 line
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed meantime 4.png
+
+Time Elapsed meantime 4th run
+------------------------------------------------------------------------
+r3 | pasang.tenzing.sherpa | 2018-12-26 18:24:16 +0545 (Wed, 26 Dec 2018) | 3 lines
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/TIme Elapsed Meantime3.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime-1.png
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking with Mean time/Time elapsed meantime-2.png
+
+Calculation of meantime 
+
+third run
+------------------------------------------------------------------------
+r2 | pasang.tenzing.sherpa | 2018-12-26 16:33:06 +0545 (Wed, 26 Dec 2018) | 2 lines
+Changed paths:
+   A /trunk/HPC Password Cracking POSIX
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking Code
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking Code/CrackAZ99-With-Data
+   A /trunk/HPC Password Cracking POSIX/PasswordCracking Code/CrackAZ99-With-Data.c
+
+HIgh Performance Computing  Password Cracking COmpile Code
+
+------------------------------------------------------------------------
+r1 | pasang.tenzing.sherpa | 2018-12-26 16:32:08 +0545 (Wed, 26 Dec 2018) | 3 lines
+Changed paths:
+   A /branches
+   A /trunk
+   A /trunk/README.md
+
+Initial commit
+
+Password Cracking Compile code
+------------------------------------------------------------------------
