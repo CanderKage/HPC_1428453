@@ -21,7 +21,8 @@
       the pixel data type.
     
   To compile adapt the code below wo match your filenames:  
-    cc -o ip_coursework ip_coursework.c -lglut -lGL -lm 
+    "cc -o ip_coursework ip_coursework38_a.c -lglut -lGL -lm -lrt "where 
+lrt for accuracy of time
    
   Dr Kevan Buckley, University of Wolverhampton, 2018
 ******************************************************************************/
@@ -90,18 +91,42 @@ static void key_pressed(unsigned char key, int x, int y) {
       break;
   }
 }
+int time_difference(struct timespec *start, struct timespec *finish, 
+                    long long int *difference) { //time difference calculation
+  long long int ds =  finish->tv_sec - start->tv_sec; 
+  long long int dn =  finish->tv_nsec - start->tv_nsec; 
+
+  if(dn < 0 ) {
+    ds--;
+    dn += 1000000000; 
+  } 
+  *difference = ds * 1000000000 + dn;
+  return !(*difference > 0);
+}
+
 
 int main(int argc, char **argv) {
   signal(SIGINT, sigint_callback);
  
-  printf("image dimensions %dx%d\n", width, height);
-  detect_edges(image, results);
+  printf("image dimensions %dx%d\n", width, height); //prints the image height width
+  struct timespec start, finish;   
+  long long int time_elapsed;
 
-  glutInit(&argc, argv);
+  clock_gettime(CLOCK_MONOTONIC, &start);   //timer starts
+  detect_edges(image, results);  // carrying time function after the images is loaded
+
+
+  clock_gettime(CLOCK_MONOTONIC, &finish); //timer ends after the image function of detecting edges loaded
+  time_difference(&start, &finish, &time_elapsed);
+  printf("Time elapsed was %lldns or %0.9lfs\n", time_elapsed, 
+         (time_elapsed/1.0e9));    //time interval output
+
+ 
+  glutInit(&argc, argv);  //initialize graphics 
   glutInitWindowSize(width * 2,height);
   glutInitDisplayMode(GLUT_SINGLE | GLUT_LUMINANCE);
       
-  glutCreateWindow("6CS005 Image Progessing Courework");
+  glutCreateWindow("6CS005 Image Processing Coursework");
   glutDisplayFunc(display);
   glutKeyboardFunc(key_pressed);
   glClearColor(0.0, 1.0, 0.0, 1.0); 
